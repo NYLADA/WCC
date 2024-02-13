@@ -1,12 +1,12 @@
 p{
-text-color: darkolivegreen;
+color: darkolivegreen;
 text-align: left;
 border: dotted;
-text-shadow: 2px 2px 4px black;
+text-shadow: 1px 1px 2px black;
 }
 
 li{
 font-family: sans-serif;	
-text-shadow: 2px 2px 4px black;
+text-shadow: 1px 1px 2px black;
 	
 }
