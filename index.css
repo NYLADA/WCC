@@ -4,7 +4,7 @@ background-color: lightslategrey;
 /* this is the paragraph style code*/
 p{
 color: lightsteelblue;
-background-color: cornsilk;
+background-color: rgb( 163, 140, 192);
 text-align: left;
 outline-color: aliceblue;
 outline-style: ridge;
@@ -17,7 +17,7 @@ padding-top:10px;
 /* this is the list item style code*/
 li{
 color: lightsteelblue;
-background-color: cornsilk;
+background-color: rgb( 163, 140, 192);
 font-family: sans-serif;	
 padding-right:5px;
 padding-left:5px;
