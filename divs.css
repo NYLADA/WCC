@@ -1,0 +1,69 @@
+.para1{
+color: purple;
+padding: 50px; /* padding is between the content and the border*/
+border: dashed; /* border is between the padding and the margin*/
+border-left: dotted;
+border-width: 5px;
+border-color: blue;
+margin: 10px; /* margin is the last layer bewteen the content and other content on the page*/
+}
+.para2{
+color: orange;
+padding: 25px;
+border: dotted; 
+border-width: 5px;
+border-left:solid;
+border-color: blue;
+margin: 10px;
+}
+.para3{
+color: red;
+padding: 15px;
+border: solid;
+border-left:dashed;
+border-width: 5px;
+border-color: blue;
+margin:10px;
+}
+.top{
+min-height: 300px;
+}
+.middle{
+min-height: 500px;
+}
+.bottom{
+min-height: 100px; /* min-height tell the webpage that thisis the smallest this section can be, but it could be larger*/
+}
+
+/* minimum widths and height shelp to accomadate for what is taking up space on the webpage and allows the content to stretch the box if needed*/
+
+.header{
+border:solid;
+}
+
+.nav{
+border:solid;
+}
+
+.article{
+float: left;
+min-width: 50%; /* percents help share the pace of the page. this helps the page be responsive to the space on the screen*/
+min-height:300px;
+border:solid;
+}
+
+.section{
+border:solid;
+}
+
+.aside{
+float: left;
+min-width: 50%;
+min-height:300px;
+border:solid;
+}
+
+.footer{
+border:solid;
+
+}
