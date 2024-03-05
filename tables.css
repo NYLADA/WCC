@@ -1,0 +1,52 @@
+h1{
+	color:blue;
+}
+table{
+	border: solid 1px;
+	margin: auto; /* automatically centers content on the screen or whatever it is inside of.
+								ex: a div*/
+}
+td{
+	border: solid 1px;
+	border-color: black;
+	color: goldenrod;
+}
+th{
+	border: solid 3px;
+	background-color: lightblue;
+}
+
+
+
+
+/*.header {
+	border: 1px solid black;
+}
+
+.nav {
+	border: 1px solid black;	
+}
+
+.article {
+	float: left;
+	min-width: 59%;
+	min-height: 300px;
+	border: 1px solid black;
+}
+
+.section {
+	border: 1px solid black;
+}
+
+.aside {
+	min-width: 39%;
+	min-height: 300px;
+	float: right;
+	border: 1px solid black;
+}
+
+
+.footer {
+	border: 1px solid black;
+}*/
+
