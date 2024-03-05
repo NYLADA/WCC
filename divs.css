@@ -37,33 +37,34 @@ min-height: 100px; /* min-height tell the webpage that thisis the smallest this 
 
 /* minimum widths and height shelp to accomadate for what is taking up space on the webpage and allows the content to stretch the box if needed*/
 
-.header{
-border:solid;
+
+.header {
+	border: 1px solid black;
 }
 
-.nav{
-border:solid;
+.nav {
+	border: 1px solid black;	
 }
 
-.article{
-float: left;
-min-width: 50%; /* percents help share the pace of the page. this helps the page be responsive to the space on the screen*/
-min-height:300px;
-border:solid;
+.article {
+	float: left;
+	min-width: 59%;
+	min-height: 300px;
+	border: 1px solid black;
 }
 
-.section{
-border:solid;
+.section {
+	border: 1px solid black;
 }
 
-.aside{
-float: left;
-min-width: 50%;
-min-height:300px;
-border:solid;
+.aside {
+	min-width: 39%;
+	min-height: 300px;
+	float: right;
+	border: 1px solid black;
 }
 
-.footer{
-border:solid;
 
+.footer {
+	border: 1px solid black;
 }
