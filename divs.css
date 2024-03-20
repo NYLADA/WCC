@@ -37,34 +37,66 @@ min-height: 100px; /* min-height tell the webpage that thisis the smallest this 
 
 /* minimum widths and height shelp to accomadate for what is taking up space on the webpage and allows the content to stretch the box if needed*/
 
-
-.header {
-	border: 1px solid black;
+.header{
+border:solid;
+border-radius: 20%; /* the radius is defining the corners of the content. The Percent is better suited for websites becaue it alllows the ccoreners to adapt to the size of the webpage*/
 }
 
-.nav {
-	border: 1px solid black;	
+.nav{
+border:solid;
 }
-
-.article {
+.red_circle{
+	width:100px;
+	height:100px;
+	background: linear-gradient(crimson, orange, darkgoldenrod, darkgreen, blue, purple);/* allows for more colors in the image, can also be applied to text*/
+	border-radius: 25%;
+	color: white; /* changes the text color*/
+	margin-left: 5%;
+	text-align: center;
 	float: left;
-	min-width: 59%;
-	min-height: 300px;
-	border: 1px solid black;
+}
+.blue_circle{
+	width:100px;
+	height:100px;
+	background: linear-gradient(45deg, blue, green, purple);/* the degree allows for an angled gradient instead of top to bottom*/
+	border-radius: 25%;
+	color: white; /* changes the text color*/
+	margin-left: 5%;
+	text-align: center;
+	float: left;
+	
+}
+.pink_circle{
+	width:100px;
+	height:100px;
+	background: radial-gradient( pink, purple);/* makes the gradiant bands of color center round the middle, like a circcle*/
+	/* alpha-gradient allows for tranparency*/
+	border-radius: 25%;
+	color: white; /* changes the text color*/
+	margin-left: 25%;
+	text-align: center;
+	
+	
+}
+.article{
+float: left;
+min-width: 59%;/* percents help share the pace of the page. this helps the page be responsive to the space on the screen*/
+min-height: 300px;
+border:solid;
 }
 
-.section {
-	border: 1px solid black;
+.section{
+border:solid;
 }
 
-.aside {
-	min-width: 39%;
-	min-height: 300px;
-	float: right;
-	border: 1px solid black;
+.aside{
+min-width: 39%;
+min-height: 300px;
+float: right;
+border:solid;
 }
 
+.footer{
+border:5px solid;
 
-.footer {
-	border: 1px solid black;
 }
