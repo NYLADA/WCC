@@ -19,10 +19,6 @@ li{
 color: lightsteelblue;
 background-color: rgb( 163, 140, 192);
 font-family: sans-serif;	
-padding-right:5px;
-padding-left:5px;
-padding-bottom: 5px;
-padding-top:5px;
 outline-color: #F0F8FF;
 outline-style: ridge;
 text-shadow: 1px 1px 2px lightslategrey;
@@ -30,6 +26,8 @@ padding-right:10px;
 padding-left:10px;
 padding-bottom: 10px;
 padding-top:10px;
+width: 50%;
+height: 50%;
 	
 }
 
