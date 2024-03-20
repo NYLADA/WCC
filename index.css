@@ -41,3 +41,19 @@ font: sans-serif;
 .body2{
 font-color: lightslategrey;
 }
+table{
+	border: solid 1px;
+	margin: auto; /* automatically centers content on the screen or whatever it is inside of.
+								ex: a div*/
+}
+td{
+	border: solid 1px;
+	border-color: black;
+	color: cornflowerblue;
+	background-color: rgb( 163, 140, 192);
+}
+th{
+	border: solid 3px;
+	background-color: rgb( 163, 140, 192);
+}
+
